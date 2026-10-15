@@ -1,6 +1,6 @@
 # `@All()` ignores the route version with `FastifyAdapter`
 
-Minimal reproduction for a NestJS bug report (issue link to be added).
+Minimal reproduction for [nestjs/nest#18155](https://github.com/nestjs/nest/issues/18155).
 
 With `FastifyAdapter` and header, media type or custom versioning, routes declared with `@All()` are registered without their version:
 
